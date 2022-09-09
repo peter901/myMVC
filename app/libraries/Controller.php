@@ -23,10 +23,8 @@ class Controller{
             require_once('../app/views/'. $view .'.php');
         }
         else{
-            die("Veiw {$view} does not exist");
+            die("View {$view} does not exist");
         }
-
-        //
     }
 
 
