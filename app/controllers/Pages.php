@@ -7,7 +7,7 @@
 
     public function index(){
 
-      $this->view('pages/index',['data'=>'sample data']);
+      $this->view('pages/index');
 
     }
   }
