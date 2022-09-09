@@ -26,6 +26,7 @@ class Core {
         $this->currentController = new $this->currentController;
 
         if(isset($url[1])){
+            
             if(method_exists($this->currentController,$url[1])){
                 $this->currentMethod= $url[1];
                 //Unset 1 index
