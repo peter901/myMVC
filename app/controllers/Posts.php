@@ -11,6 +11,6 @@ class Posts{
     }
 
     public function about($param = null){
-        echo "about method in posts loaded with param {$param}";
+        echo "about method in posts loaded  {$param}";
     }
 }
